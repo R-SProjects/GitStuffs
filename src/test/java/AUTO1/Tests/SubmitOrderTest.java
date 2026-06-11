@@ -54,6 +54,9 @@ public class SubmitOrderTest extends BaseTest1 {
 		System.out.println("Successfull from framework structure ");
 		System.out.println("Successfull from framework structure 2");
 		System.out.println("Successfull from framework structure 3");//3
+		System.out.println("Successfull from framework structure 4 ");
+		System.out.println("Successfull from framework structure 5");
+		System.out.println("Successfull from framework structure 6");//6
 	}
 	@Test(dependsOnMethods= {"submitOrder"})
 	public void  VerifyOrdersPage() {
