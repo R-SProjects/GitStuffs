@@ -45,13 +45,15 @@ public class SubmitOrderTest extends BaseTest1 {
 		CheckOutPage1 checkoutpage1 = cartpage1.goToCheckout();
 		String country = "India";
 		checkoutpage1.doCheckOut("India");
-
+		
 		// wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector(".hero-primary")));
 
 		ConfirmationPage1 confirmpage = checkoutpage1.submitOrder();
 		String orderConfmessageexpect = "Thankyou for the order.";
 		Assert.assertEquals(confirmpage.getConfirmation(), orderConfmessageexpect.toUpperCase());
 		System.out.println("Successfull from framework structure ");
+		System.out.println("Successfull from framework structure 2");
+		System.out.println("Successfull from framework structure 3");//3
 	}
 	@Test(dependsOnMethods= {"submitOrder"})
 	public void  VerifyOrdersPage() {
