@@ -54,7 +54,7 @@ public class SubmitOrderTest extends BaseTest1 {
 		System.out.println("Successfull from framework structure ");
 		System.out.println("Successfull from framework structure 2");
 		System.out.println("Successfull from framework structure 3");//3
-		System.out.println("From branch devlop ");
+		System.out.println("Gitx xchnaged ");
 	}
 	@Test(dependsOnMethods= {"submitOrder"})
 	public void  VerifyOrdersPage() {
