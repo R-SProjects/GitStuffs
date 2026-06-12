@@ -56,7 +56,7 @@ public class WebEle_SubmitOrder2 {
 			System.out.println("dd" + coun.getText());
 			System.out.println("Successfull from framework structure ");
 			System.out.println("Successfull from framework structure 2");
-			System.out.println("Successfull from framework structure 3");//3
+			System.out.println("develop branch 2");//3
 		}
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".action__submit")));
 		driver.findElement(By.className("action__submit")).click();
