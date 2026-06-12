@@ -1,5 +1,3 @@
-a
-asdf
 
 ball
 bat
